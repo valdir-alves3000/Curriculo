@@ -160,15 +160,6 @@ section .content p {
 
 }
 
-.fotos ul li:hover {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50% , -50%);
-  width: 500px;
-  z-index: 99;
-  
-}
 
 .fotos ul li {
   list-style: none;
