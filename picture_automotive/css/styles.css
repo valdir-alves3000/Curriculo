@@ -1,5 +1,3 @@
-
-
 * {
   padding: 0;
   margin: 0;
@@ -23,15 +21,13 @@ font-family: Roboto, sans-serif;
   border-radius: 8px;
 
   box-shadow: -2px 2px rgba(0, 0, 0, 0.2), 2px 2px rgba(0, 0, 0, 0.2);
-   background: rgba(94, 94, 201, 0.2);
+  background: rgba(94, 94, 201, 0.2);
     
 }
 
-header {
-    
-    height: 120px;
+header {   
+    position: relative;   
     padding-bottom: 20px;
-    overflow: hidden;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);    
     margin: 0 20px;
 }
@@ -56,36 +52,35 @@ header .title {
     
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 header .content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 20px;]
-  
-
+    display: block;
+    margin-top: 20px; 
 }
 
-a {
-  
+a {  
   text-decoration: none;
   color: #333;
-  margin-right: 20px;
+  margin: 20px;
   font-size: 18px;  
   text-align: center;  
+  font-weight: 600;
 }
 
 header .content ul {
-  list-style: none;
+  list-style: circle;
+  display: block;
+  margin: 10px;
 }
 
 header .content ul li{
   color: #333;
   font-size: 16px;
   margin: 10px;
+  font-weight: 600;
+  
 }
 
 header .content img {
@@ -160,14 +155,12 @@ section .content p {
 
 }
 
-
 .fotos ul li {
   list-style: none;
   background: rgb(218, 214, 214);
   padding: 5px;
   border-radius: 8px;
-  
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,7 +197,7 @@ a:hover {
     left: 50%;
     transform: translate(-50%, 0);
     max-width: 98%;
-    margin: 0;
+    margin: 0 0 20px;
   }
   
   header .title{
