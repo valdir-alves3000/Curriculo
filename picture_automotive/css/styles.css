@@ -64,7 +64,8 @@ header .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 20px;]
+  
 
 }
 
@@ -73,7 +74,8 @@ a {
   text-decoration: none;
   color: #333;
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 18px;  
+  text-align: center;  
 }
 
 header .content img {
