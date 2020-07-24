@@ -69,7 +69,7 @@ header .content {
 
 }
 
-a {
+a, header .content h3 {
   
   text-decoration: none;
   color: #333;
