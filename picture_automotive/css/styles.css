@@ -166,6 +166,11 @@ section .content p {
   background: rgb(218, 214, 214);
   padding: 5px;
   border-radius: 8px;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fotos ul li img {
